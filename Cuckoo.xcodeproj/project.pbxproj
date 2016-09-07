@@ -427,9 +427,11 @@
 				TargetAttributes = {
 					183D03FA1C4691C600EBAEF3 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					183D04041C4691C600EBAEF3 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -700,6 +702,7 @@
 				PRODUCT_NAME = Cuckoo;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -724,6 +727,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Cuckoo;
 				PRODUCT_NAME = Cuckoo;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -735,6 +739,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.CuckooTests;
 				PRODUCT_NAME = CuckooTests;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -745,6 +750,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.CuckooTests;
 				PRODUCT_NAME = CuckooTests;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
